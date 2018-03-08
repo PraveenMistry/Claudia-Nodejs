@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "web-api-test-executor",
+    "name": "web-api-test",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "6se7w2brnh",
+    "module": "web"
+  }
+}

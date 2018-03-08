@@ -1,0 +1,25 @@
+{
+  "name": "web-api-test",
+  "description": "Simple example that shows how to create WEB apis",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "start": "claudia create --name web-api-test --region us-east-1 --api-module web",
+    "deploy": "claudia update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praveenMistry/claudia-serverless-nodejs.git"
+  },
+  "devDependencies": {
+    "claudia": "^3"
+  },
+  "dependencies": {
+    "claudia-api-builder": "^3",
+    "denodeify": "^1.2.1",
+    "superb": "^1.2.0"
+  },
+  "version": "1.0.0",
+  "main": "web.js"
+}
