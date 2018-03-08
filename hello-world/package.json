@@ -1,0 +1,21 @@
+{
+  "name": "hello-world",
+  "description": "ClaudiaJS hello-world example",
+  "version": "1.0.0",
+  "private": true,
+  "files": [
+    "main.js"
+  ],
+  "scripts": {
+    "start": "claudia create --name hello-world --region us-east-1 --handler main.handler",
+    "test": "claudia test-lambda",
+    "deploy": "claudia update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praveenMistry/claudia-serverless-nodejs.git"
+  },
+  "devDependencies": {
+    "claudia": "^3.3.1"
+  }
+}

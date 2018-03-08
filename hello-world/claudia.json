@@ -1,0 +1,7 @@
+{
+  "lambda": {
+    "role": "hello-world-executor",
+    "name": "hello-world",
+    "region": "us-east-1"
+  }
+}
